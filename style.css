@@ -1,0 +1,155 @@
+html {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+topmenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #444444;
+  padding: 30px 60px;
+  font-weight: 100;
+  box-sizing: border-box;
+
+}
+
+.topmenuitem {
+  color: white;
+  font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+bio, achievements, experience, training {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+#bio {
+  position: relative;
+  height: 500px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-size: auto 100%;
+  background-position: center;
+  min-height: 100%;
+  }
+
+#introtext {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+}
+
+#bio h2 {
+  font-size: 40px;
+  margin-bottom: -20px;
+}
+
+#bio h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.leftside {
+  width: 40%;
+}
+
+.rightside {
+  width: 60%;
+  margin-left: 30px;
+}
+
+
+
+p, ul, hr, #achievements {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 20px;
+  line-height: 1.5;
+  list-style-type: square;
+}
+
+blockquote {
+  position: relative;
+  width: 65%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #444444;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 50px;
+  padding: 50px 45px;
+  text-align: left;
+}
+
+blockquote::before {
+  content: '”';
+  font-size: 3em;
+  position: absolute;
+  left: 0;
+  top: -110px;
+  transform: rotate(180deg);
+
+}
+
+
+
+.chapter {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.ribbon {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.5em;  
+}
+
+.jobname {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.details li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 4px solid #444444;
+    width: 58%;
+}
